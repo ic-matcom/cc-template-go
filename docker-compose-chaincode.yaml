@@ -5,10 +5,10 @@ networks:
         external: true
 
 services:
-    asset-transfer-basic.org1.example.com:
+    cc-template-go.org1.example.com:
         build: .
-        container_name: asset-transfer-basic.org1.example.com
-        hostname: asset-transfer-basic.org1.example.com
+        container_name: cc-template-go.org1.example.com
+        hostname: cc-template-go.org1.example.com
         volumes:
             - ./crypto:/crypto
         env_file:
